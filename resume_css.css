@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap");
+
+/* colors - green #78ffc4 purple #dcaae4 pink #fdc2e4 white #faf3de */
+
+body {
+  font-size: 16px;
+  font-family: "Roboto Mono";
+  color: #dcaae4;
+  background: #faf3de;
+  text-align: center;
+}
+
+h2 {
+  color: #78ffc4;
+}
+h1 {
+  color: #20ff9f;
+}
+
+input {
+  border-radius: 0.5rem;
+  border-color: #dcaae4;
+  outline: none;
+  border: none;
+  color: #dcaae4;
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+}
+
+textarea {
+  border-radius: 1rem;
+  border-color: #dcaae4;
+  resize: none;
+  outline: none;
+  border: none;
+  color: #dcaae4;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.form {
+  font-size: 15px;
+  line-height: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  color: #faf3de;
+  background-color: #fdc2e4;
+  border: none;
+  border-radius: 1rem;
+  transition: all 500ms;
+}
+
+button:hover {
+  background-color: #946b83;
+}
+
+hr {
+  border: none;
+  border-top: 5px solid #ffd968;
+  border-radius: 100%;
+}
+
+.card {
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.hobbies li {
+  margin-bottom: 5px;
+}
+
+.hobbies {
+  background-color: rgba(224, 255, 255, 0.5);
+  list-style: none;
+}
+
+.games {
+  background-color: rgba(152, 255, 198, 0.336);
+}
+
+.socials {
+  background-color: rgba(231, 255, 154, 0.37);
+}
+
+table {
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 10px;
+  border: 3px solid #78ffc4;
+  border-radius: 25px;
+  padding: 5px;
+}
+table td {
+  border: 3px solid #78ffc4;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+table td:hover {
+  background: #20ff9e5d;
+}
+
+table th {
+  border: 3px solid #78ffc4;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #dcaae4;
+}
+
+a:hover {
+  color: #20ff9f;
+}
+
+.img {
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#me {
+  text-shadow: -2px -2px 0 #0f8653, 2px -2px 0 #0f8653, -2px 2px 0 #0f8653,
+    2px 2px 0 #0f8653;
+}
